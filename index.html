@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
 </head>
 <body>
     <nav>
@@ -14,32 +15,47 @@
         <div class="cari"><input type="text" name="cari"></div>
         <div>Keranjang</div>
         <div>
-            <button>Masuk</button>
-            <button>Daftar</button>
+            <button type="button" class="btn btn-primary">Masuk</button>
+            <button class="btn btn-success">Daftar</button>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="kotak">
-            <img src="download.jpg">
-            <p>Makanan Berat</p>
-        </div>
-        <div class="kotak">
-            <img src="download.jpg">
-            <p>Makanan Berat</p>
-        </div>
-        <div class="kotak">
-            <img src="download.jpg">
-            <p>Makanan Berat</p>
-        </div>
-        <div class="kotak">
-            <img src="download.jpg">
-            <p>Makanan Berat</p>
-        </div>
-        <div class="kotak">
-            <img src="download.jpg">
-            <p>Makanan Berat</p>
+    <div class="container mt-5 d-flex justify-content-center" style="height: auto;">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem">
+                    <img src="https://asset-a.grid.id/crop/0x0:0x0/780x800/photo/bobofoto/original/7670_sate-ayam.jpg" class="card-img-top" width="100px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem">
+                    <img src="https://asset-a.grid.id/crop/0x0:0x0/780x800/photo/bobofoto/original/7670_sate-ayam.jpg" class="card-img-top" width="100px" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem">
+                    <img src="https://asset-a.grid.id/crop/0x0:0x0/780x800/photo/bobofoto/original/7670_sate-ayam.jpg" class="card-img-top" width="100px" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="bootstrap/js/bootstrap.min.js" ></script>
 </body>
 </html>
